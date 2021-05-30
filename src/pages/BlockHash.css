@@ -1,0 +1,37 @@
+.block-transactions-row {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 1fr;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.block-transactions-value {
+    display: grid;
+    grid-template-columns: auto 140px;
+}
+
+.block-transactions-inputs-out {
+    background: #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.block-transactions-hash {
+    margin: 0 10px;
+}
+
+.block-transactions-fee {
+    margin: 0 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
