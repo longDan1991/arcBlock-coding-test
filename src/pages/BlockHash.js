@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlockHash.css';
 import 'antd/dist/antd.css';
-import { Input, Descriptions, List, Tag } from 'antd';
+import { Input, Descriptions, List, Tag, Typography } from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons';
 import moment from 'moment';
 import { addIndex, any, map, reduce } from 'ramda';
@@ -103,6 +103,10 @@ const BlockHash = () => {
                 enterButton='Search'
                 size='large'
             />
+            <div style={{ display: 'flex' }}>
+                <span>例：</span>
+                <Typography.Paragraph copyable>00000000000000000007878ec04bb2b2e12317804810f4c26033585b3f81ffaa</Typography.Paragraph>
+            </div>
             <BlockDescriptions data={data} />
         </div>
     );
