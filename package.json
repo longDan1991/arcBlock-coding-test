@@ -1,4 +1,7 @@
 {
+  "name": "coding-test",
+  "version": "0.1.0",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && rm -f build/static/**/*.map",

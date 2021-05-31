@@ -1,15 +1,16 @@
-name: react-demo
+name: coding-test
 version: 0.1.0
+homepage: 'https://github.com/longDan1991/arcBlock-coding-test'
 files:
   - blocklet.md
   - README.md
   - build
-title: React Demo
+title: Coding test
 keywords:
   - static
   - demo
   - react
-description: Blocklet from local react-demo
+description: Blocklet from local coding-test
 group: static
 main: build
 author:

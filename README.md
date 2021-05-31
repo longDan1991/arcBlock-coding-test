@@ -8,10 +8,14 @@ You can get more details from [Get started with ABT Node](https://www.arcblock.i
 
 Clone the repo and start development using a debug mode ABT Node instance inside this project:
 ```shell
-git clone git@github.com:blocklet/react-demo.git
-cd react-demo
+git clone https://github.com/longDan1991/arcBlock-coding-test.git
+cd arcBlock-coding-test
 yarn
 abtnode init --mode debug
 abtnode start
 blocklet dev
+```
+Publish on a local ABT Node
+```shell
+yarn deploy
 ```

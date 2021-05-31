@@ -3,8 +3,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import BlockHash from './pages/BlockHash';
 
-const App: React.FunctionComponent = (): JSX.Element => {
-  
+const App = () => {
   return (
     <div className="App">
       <BlockHash />
